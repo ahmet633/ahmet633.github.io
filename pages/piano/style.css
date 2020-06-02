@@ -1,0 +1,25 @@
+.piano-key{
+	width: 60px;
+	height: 120px;
+	transition: all 0.7s;
+	border: 1px black solid;
+	display: inline-block;
+	text-align: center;
+}
+
+.white-key{
+	/*width: 30px;
+	height: 60px;*/
+}
+
+.black-key{
+	background-color: black;
+	color: white;
+	/*width: 25px;
+	height: 30px;*/
+}
+
+.playing{
+	border: blue 2px solid;
+	transform: scale(1.2);
+}
