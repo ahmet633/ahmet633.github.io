@@ -1,25 +1,97 @@
+#piano{
+	position: relative;
+	margin-top: 250px;
+	margin-left: calc(50% - var(--tile-width)*4.5);
+	--tile-width: 100px;
+	height: 100%;
+}
+
+#c3{
+	left:calc(var(--tile-width) * 0);
+}
+
+#db3{
+	left:calc(var(--tile-width)*0.7);
+}
+
+#d3{
+	left:calc(var(--tile-width) * 1);
+}
+
+#eb3{
+	left:calc(var(--tile-width)*1.7);
+}
+
+#e3{
+	left:calc(var(--tile-width) * 2);
+}
+
+#f3{
+	left:calc(var(--tile-width) * 3);
+}
+
+#gb3{
+	left:calc(var(--tile-width)*3.7);
+}
+
+#g3{
+	left:calc(var(--tile-width) * 4);
+}
+
+#ab3{
+	left:calc(var(--tile-width)*5.7);
+}
+
+#a3{
+	left:calc(var(--tile-width) * 5);
+}
+
+#bb3{
+	left:calc(var(--tile-width)*5.7);
+}
+
+#b3{
+	left:calc(var(--tile-width) * 6);
+}
+
+#c4{
+	left:calc(var(--tile-width) * 7);
+}
+
+#db4{
+	left:calc(var(--tile-width)*7.7);
+}
+
+#d4{
+	left:calc(var(--tile-width) * 8);
+}
+
 .piano-key{
-	width: 60px;
-	height: 120px;
-	transition: all 0.7s;
-	border: 1px black solid;
+	width: var(--tile-width);
+	height: calc(var(--tile-width) * 2.5);
+	transition: all 0.5s;
+	position: absolute;
+	border: 2px black solid;
 	display: inline-block;
 	text-align: center;
+	border-radius: 7%;
 }
 
 .white-key{
-	/*width: 30px;
-	height: 60px;*/
+	z-index: 0;
 }
 
 .black-key{
 	background-color: black;
 	color: white;
-	/*width: 25px;
-	height: 30px;*/
+	width: calc(var(--tile-width) * 0.6);
+	height: calc(var(--tile-width) * 1.5);
+	z-index: 1;
+
 }
 
 .playing{
-	border: blue 2px solid;
-	transform: scale(1.2);
+	border: 2px yellow solid;
+	outline: 2px yellow solid;
+	background-color: grey;
 }
