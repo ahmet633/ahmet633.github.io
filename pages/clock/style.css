@@ -22,7 +22,8 @@ body{
   top: 49%;
   position: absolute;
   transform: rotate(90deg);
-  transition: all 0.5s;
+  transition: all 0.3s;
+  transition-timing-function: cubic-bezier(.68,-0.55,.27,1.55);
   border: 2px solid black;
 }
 

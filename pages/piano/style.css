@@ -44,7 +44,7 @@ body{
 }
 
 #ab3{
-	left:calc(var(--tile-width)*5.7);
+	left:calc(var(--tile-width)*4.7);
 }
 
 #a3{
