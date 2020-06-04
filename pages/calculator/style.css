@@ -1,9 +1,58 @@
+body{
+  font-family: sans-serif;
+  background-color: black;
+}
+
+.calculator{
+  top: 10em;
+  position: relative;
+  --button-width: 70px;
+  left: calc(50% - var(--button-width)*2);
+}
+
+.row{
+
+}
+
 .button{
-  width: 30px;
-  height: 30px;
+  transition: all 0.2s;
+  color: white;
+  background-color: #2e2e46;
+  width: var(--button-width);
+  height: var(--button-width);
+  line-height: var(--button-width);
   text-align: center;
-  font-size: 20px;
-  padding: 2px;
+  font-size: 30px;
+  padding: 5px;
   border: 1px black solid;
   display: inline-block;
+}
+
+.active-digit{
+  background-color: blue;
+}
+
+.active-operation{
+  background-color: lime;
+}
+
+.active-special{
+  background-color: pink;
+}
+
+
+#equals{
+  width: calc(var(--button-width) * 2 + 12px);
+}
+
+#firstoperand{
+  text-align: right;
+  width: calc(var(--button-width) * 4 + 36px);
+  display: block;
+}
+
+#display{
+  text-align: right;
+  width: calc(var(--button-width) * 4 + 36px);
+  display: block;
 }
