@@ -1,37 +1,42 @@
 body{
-  background-color: black;
+  background-color: white;
 }
 
 .analog-clock {
+  background-color: white;
   --size: 600px;
   width: var(--size);
   height: var(--size);
-  border: 4px pink solid;
+  border: 25px pink solid;
   border-radius: 50%;
   position: relative;
   top: 10rem;
   margin: auto;
   padding: 5px;
+  box-shadow: 5px 5px 20px 0px black;
 }
 
 .clock-hand{
+  box-shadow: 0px 0px 5px -2px black;
   transform-origin: 100%;
-  height: 2%;
   top: 49%;
   position: absolute;
   transform: rotate(90deg);
   transition: all 0.5s;
+  border: 2px solid black;
 }
 
 #seconds-hand{
+  height: 2px;
   width: 45%;
   left: 5%;
-  --color: #470028;
+  --color: #860808;
   border-color: var(--color);
   background-color: var(--color);
 }
 
 #minutes-hand{
+  height: 3px;
   width: 37%;
   left: 13%;
   --color: #CA87AD;
@@ -40,9 +45,10 @@ body{
 }
 
 #hours-hand{
+  height: 8px;
   width: 32%;
   left: 18%;
-  --color: #FBFBFB;
+  --color: #470028;
   border-color: var(--color);
   background-color: var(--color);
 }
