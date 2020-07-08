@@ -3,10 +3,24 @@ var operation = "none";
 
 // EMPTY BUTTON FOR LAYOUT
 var empty = document.createElement('div');
-empty.innerHTML = "0";
-empty.style.color = "#2e2e46";
+empty.innerHTML = "<<";
 empty.setAttribute("id", "empty");
 empty.classList.add("button");
+empty.addEventListener('click', function(e){
+  empty.classList.add("active-special");
+  if(display.innerHTML == "0" || display.innerHTML == "Infinite"){
+
+  } else if(display.innerHTML.length == "1"){
+    display.innerHTML = "0";
+  } else {
+    display.innerHTML = display.innerHTML.slice(0,-1);
+  }
+
+});
+empty.addEventListener('transitionend', function(e){
+empty.classList.remove("active-special");
+});
+
 
 // CREATING DIGITS
 for (i=0; i<10 ; i++) {
@@ -136,6 +150,7 @@ clear.innerHTML = "C";
 clear.classList.add("button");
 clear.addEventListener('click', function(e){
   clear.classList.add("active-special");
+  firstoperand.innerHTML = "0";
   display.innerHTML = "0";
   operation = "none";
   clearOperation();
@@ -257,6 +272,7 @@ div.classList.add("hey");
 */
 
 function clearOperation(){
+  operation = "none"
   addition.classList.remove('active-operation');
   substraction.classList.remove('active-operation');
   multiplication.classList.remove('active-operation');

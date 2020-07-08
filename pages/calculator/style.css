@@ -46,12 +46,14 @@ body{
 }
 
 #firstoperand{
+  background-color: #3C3980;
   text-align: right;
   width: calc(var(--button-width) * 4 + 36px);
   display: block;
 }
 
 #display{
+  background-color: #3C3980;
   text-align: right;
   width: calc(var(--button-width) * 4 + 36px);
   display: block;

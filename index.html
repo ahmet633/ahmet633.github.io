@@ -1,4 +1,4 @@
-<!doctyle html>
+<!doctype html>
 <html>
 	<head>
 	<title>Ahmet Yiğit</title>
@@ -7,8 +7,36 @@
 	</head>
 
 	<body>
-		<a href="pages/clock/clock.html">Clock</a>
-		<a href="pages/piano/piano.html">Piano</a>
+			<div class="left-side">
+				<div class="picture"></div>
+				<div class="menu">
+					<div class="menu-item menu-item-active">About Me</div>
+					<div class="menu-item">Online Piano</div>
+					<div class="menu-item">Analog Clock</div>
+					<div class="menu-item">Calculator</div>
+				</div>
+			</div>
+
+			<div class="right-side">
+				<div class="content ease-in" id="about-me">Hello My Name is Ahmet</div>
+				<div class="content" id="about-piano">This is a really simple online
+					 paino created using only native javascript. Soundbank is from ....
+					 You can use your keyboard -starting from A key- or your mouse to
+					 play the notes.<br><a href="pages/piano/piano.html">Piano Page</a>
+				 </div>
+				<div class="content" id="about-clock">A really simple analog clock
+					created using	native javascript libraries. Also minutehand and hourhand keeps
+					rotating every second.<br><a href="pages/clock/clock.html">Clock Page</a>
+				</div>
+				<div class="content" id="about-calculator">An online calculator dynamically created
+					 using native javascript code. To use, first you enter your first
+					 operand, then choose and operation. If your operation needs two
+					 operands, your first operand gets saved and display lets you enter
+					 your second operand. If your operation needs only one operand
+					 then the result is calculated immediately.<br><a href="pages/calculator/calculator.html">Calculator Page</a>
+				 </div>
+			</div>
 	</body>
 
+	<script src="script.js"></script>
 </html>
