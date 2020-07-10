@@ -12,7 +12,7 @@ body{
   margin-bottom: 100px;
   width: 100%;
   display: grid;
-  grid-template-columns: 20% 12% 12% 12% 12% 12% 20%;
+  grid-template-columns: 20% 10% 10% 10% 10% 10% 10% 20%;
   background-color: black;
   position: sticky;
   top: 0;
@@ -204,4 +204,22 @@ body{
 
 .list div:hover{
   color: rgb(248, 188, 42);
+}
+
+.gallery-icon{
+  max-width: 100%;
+  border: 2px solid black;
+  border-radius: 2px;
+}
+
+.gallery-icon:hover{
+  scale: 1.1;
+  border: 2px rgb(248, 188, 42) solid;
+	box-shadow: 0px 0px 3px 3px rgb(248, 188, 42);
+  transition-duration: 0.7s;
+}
+
+#gallery-display{
+  border: 2px solid black;
+  border-radius: 5px;
 }
