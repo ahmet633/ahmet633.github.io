@@ -1,0 +1,47 @@
+body{
+	font: sans-serif;
+	background-color: #EDEDED;
+	--main-color: black;
+}
+
+#navbar{
+	color: white;
+	height: 60px;
+	background-color: var(--main-color);
+	position: sticky;
+	top: 0;
+}
+
+.navbar-button{
+	align-self: center;
+	text-align: center;
+}
+
+#main{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 80%;
+	margin-left: 10%;
+	display: grid;
+	grid-template-columns: 70% 25%;
+	column-gap: 5%;
+}
+
+#content{
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 30px;
+	height: 700px;
+	background-color: white;
+}
+
+#sidebar{
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 30px;
+	background-color:white;
+}
+
+#footer{
+	background-color: var(--main-color);
+}
