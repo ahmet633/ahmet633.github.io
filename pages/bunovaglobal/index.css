@@ -4,10 +4,6 @@ body {
   --main-color: rgb(197, 81, 14);
 }
 
-.selection{
-  border-bottom: solid #555 1px;
-}
-
 #s1-color{
   transition-duration: 1s;
 }
@@ -67,8 +63,21 @@ a:hover{
   padding: 3rem;
 }
 
+@media only screen and (min-width: 768px) {
+  .info-element{
+    padding: 7rem;
+  }
+  .selection{
+    min-height: 500px;
+  }
+} 
+
 .info-big{
   font-size: 3rem;
+}
+
+.info-normal{
+  font-size: 3vmin;
 }
 
 .btn-coffee {
