@@ -1,6 +1,24 @@
 body {
   font-family: sans-serif;
   background-color: #eee;
+  --main-color: rgb(197, 81, 14);
+}
+
+.selection{
+  border-bottom: solid #555 1px;
+}
+
+#s1-color{
+  transition-duration: 1s;
+}
+#s2-color{
+  transition-duration: 1s;
+}
+#s3-color{
+  transition-duration: 1s;
+}
+#s5-color{
+  transition-duration: 1s;
 }
 
 #banner{
@@ -30,7 +48,8 @@ body {
 }
 
 #topnav .nav-item:hover {
-  border-bottom: solid #333 0.8em;
+  color: var(--main-color);
+  border-bottom: solid var(--main-color) 0.8em;
   transition-duration: 0.1s;
 }
 
@@ -45,14 +64,29 @@ a:hover{
 .info-element{
   font-family: 'Cormorant Garamond', serif;
   font-style: italic;
-  padding: 2em;
+  padding: 3rem;
+}
+
+.info-big{
+  font-size: 3rem;
+}
+
+.btn-coffee {
+  background-color: var(--main-color);
+  padding: 0.5rem 1rem;
+  font-family: 'Cormorant Garamond', serif;
+  color: #fff
+}
+
+.btn-coffee:hover {
+  background-color: rgb(157, 64, 0);
+  color: #fff;
 }
 
 
 footer{
   color: #ddd;
   padding: 2em;
-  margin-top: 200px;
   height: 100px;
   background-color: #222;
   text-align: center;
