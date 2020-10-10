@@ -26,10 +26,13 @@
 <body>
 
 
-  <!-- myNAVBAR   
+  <!-- myNAVBAR    -->
   <nav class="navbar  navbar-expand-md text-black py-3">
     <div class="container">
-      <div class="display-4 d-none d-md-block active">AFEL ELLO</div>
+      <!--
+      <div class="display-4 d-none d-md-block active">BunovaGlobal</div>
+      -->
+      <div class=""><img class="img-fluid" src="img/bunova logo.jpeg"></div>
       <button class="navbar-toggler collapsed" data-target="#mynav" data-toggle="collapse">
         <span class="line"></span> 
         <span class="line"></span> 
@@ -37,17 +40,15 @@
       </button>
       <div class="collapse navbar-collapse" id="mynav">
         <div class="navbar-nav ml-auto">
-          <a style="color:green;" class="nav-item nav-link text-center" href="./index.html">Anasayfa</a>
-          <a style="color:green;" class="nav-item nav-link text-center" href="./kurumsal.html">Kurumsal</a>
-          <a style="color:green;" class="nav-item nav-link text-center" href="./galeri.html">Galeri</a>
-          <a style="color:green;" class="nav-item nav-link text-center" href="./urunler.html">Ürünler</a>
-          <a style="color:green;" class="nav-item nav-link text-center" href="./insankaynaklari.html">İnsan Kaynakları</a>
-          <a style="color:green;" class="nav-item nav-link text-center" href="./iletisim.html">İletişim</a>
+          <a class="nav-item nav-link text-center" href="index.html">Home</a>
+          <a class="nav-item nav-link text-center" href="journey-of-coffee.html">Journey of Coffee</a>
+          <a class="nav-item nav-link text-center" href="products.html">Products</a>
+          
         </div>
       </div>
     </div>
   </nav>
-   -->
+  
   
 
   <!-- Masthead 
@@ -65,27 +66,28 @@
   <!-- Image Showcases -->
   <section class="showcase">
     <div class="container-fluid p-0">
-      <div class="row no-gutters" >
+      <div class="row no-gutters" id="s1" >
 
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/rsz_wood.jpg');"></div>
+        <div class="col-lg-6 order-lg-2 text-white showcase-img img-fluid" style="background-image: url('img/rsz_wood.jpg');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
           <h2>Roasted With <div class="d-inline" id="s1-color">Passion</div></h2>
-          <p id="s1" class="lead mb-0 mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et!</p>
+          <p class="lead mb-0 mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et!</p>
         </div>
       </div>
-      <div class="row no-gutters" >
+      <div class="row no-gutters" id="s2">
         <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/grinder.jpg');"></div>
         <div class="col-lg-6 my-auto showcase-text">
           <h2>Watch Coffee's <div class="d-inline" id="s2-color">Journey</div></h2>
-          <p id="s2" class="lead mb-0 mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ut debitis unde sed, saepe voluptatibus explicabo alias dolore dolorum eligendi tempore id accusamus. Dolore vel, nesciunt natus temporibus assumenda sequi?</p>
+          <p class="lead mb-0 mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ut debitis unde sed, saepe voluptatibus explicabo alias dolore dolorum eligendi tempore id accusamus. Dolore vel, nesciunt natus temporibus assumenda sequi?</p>
+          <a class="btn btn-coffee mx-5 mt-5" href="journey-of-coffee.html">Watch Coffee's Journey</a>
         </div>
       </div>
-      <div class="row no-gutters" >
+      <div class="row no-gutters" id="s3">
         <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/harvest.jpg');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
           <h2><div id="s3-color" class="d-inline">Direct</div> Trade</h2>
-          <p id="s3" class="lead mb-0 mt-5">By practicing direct trade, we make coffee farmer's lifes easier.</p>
-          <a class="btn btn-coffee mx-5 mt-5" style="font-size: 1.2rem;" href="#">What is Direct Trade?</a>
+          <p class="lead mb-0 mt-5">By practicing direct trade, we make coffee farmers' lifes easier.</p>
+          <a class="btn btn-coffee mx-5 mt-5" href="direct-trade.html">What is Direct Trade?</a>
         </div>
       </div>
       
@@ -130,7 +132,7 @@
       <div class="row">
         <div class="col-xl-9 mx-auto">
           <h2 class="mb-4">Browse Our <div id="s5-color">Products</div></h2>
-          <a href="./iletisim.html"><button class="btn btn-coffee btn-lg">İletişim</button></a>
+          <a href="products.html"><button class="btn btn-coffee btn-lg">Products</button></a>
         </div>
       </div>
     </div>

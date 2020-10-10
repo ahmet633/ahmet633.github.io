@@ -15,27 +15,24 @@ let s5done = false;
 function doSomething(scroll_pos) {
   // Do something with the scroll position
   if(!s1done){
-    if(scroll_pos > section1.offsetTop - section1.offsetHeight/2) {
+    if(scroll_pos > section1.offsetTop - section1.offsetHeight/3) {
       s1done = true;
-      console.log("s1 colored")
       const s1color = document.getElementById('s1-color')
       s1color.style.color = 'rgb(197, 81, 14)'
     } 
   }
   
   if(!s2done){
-    if(scroll_pos > section2.offsetTop - section2.offsetHeight/2) {
+    if(scroll_pos > section2.offsetTop - section2.offsetHeight/3) {
       s2done = true;
-      console.log("s2 colored")
       const s2color = document.getElementById('s2-color')
       s2color.style.color = 'rgb(197, 81, 14)'
     } 
   }
   
   if(!s3done){
-    if(scroll_pos > section3.offsetTop - section3.offsetHeight) {
+    if(scroll_pos > section3.offsetTop - section3.offsetHeight/3) {
       s3done = true;
-      console.log("s3 colored")
       const s3color = document.getElementById('s3-color')
       s3color.style.color = 'rgb(197, 81, 14)'
     }
@@ -44,7 +41,6 @@ function doSomething(scroll_pos) {
   if(!s5done){
     if(scroll_pos > section5.offsetTop - section5.offsetHeight) {
       s5done = true;
-      console.log("s5 colored")
       const s5color = document.getElementById('s5-color')
       s5color.style.color = 'rgb(197, 81, 14)'
     }

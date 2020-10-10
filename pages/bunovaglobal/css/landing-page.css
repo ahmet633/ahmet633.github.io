@@ -130,9 +130,11 @@ header.masthead h1 {
   opacity: 0.3;
 }
 
-footer.footer {
+footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+  background-color: #263034;
+  color: white;
 }
 
 
@@ -141,7 +143,7 @@ footer.footer {
     width: 47px;
     height: 34px;
     background-color: white;
-    border:solid 1px green;
+    border:solid 1px rgb(197, 81, 14);
 }
 
 .navbar-toggler .line{
@@ -162,4 +164,16 @@ footer.footer {
 .btn-coffee:hover {
   background-color: rgb(157, 64, 0);
   color: #fff;
+}
+
+.nav-link {
+  color: rgb(197, 81, 14);
+  border-bottom: solid 3px white;
+  transition-duration: 0.2s;
+}
+
+.nav-link:hover{
+  color: rgb(157, 64, 0);
+  border-bottom: solid 3px rgb(157, 64, 0);
+  transition-duration: 0.2s;
 }
