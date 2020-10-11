@@ -9,38 +9,168 @@
   <meta name="author" content="">
 
   <title>BunovaGlobal | Journey of Coffee</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
   <!-- Custom styles for this template -->
   <link href="css/landing-page.css" rel="stylesheet">
 
 </head>
 
 <body>
-  <div id="root">
-    <!-- Top-Left Home icon -->
-    <a href="index.html">Home</a>
 
-    <br />
-    <!-- Progress (e.g. 3/11) icon -->
-    <div style="display: inline" id="index">1</div><div style="display: inline">/11</div>
-    <br />
+  <!-- myNAVBAR    -->
+  <nav class="navbar  navbar-expand-md text-black py-3">
+      <div class="container">
+        <!--
+        <div class="display-4 d-none d-md-block active">BunovaGlobal</div>
+        -->
+        <div class=""><img class="img-fluid" src="img/bunova logo.jpeg"></div>
+        <button class="navbar-toggler collapsed" data-target="#mynav" data-toggle="collapse">
+          <span class="line"></span> 
+          <span class="line"></span> 
+          <span class="line"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynav">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link text-center" href="index.html">Home</a>
+            <a class="nav-item nav-link text-center" href="journey-of-coffee.html">Journey of Coffee</a>
+            <a class="nav-item nav-link text-center" href="direct-trade.html">Direct Trade</a>
+            <a class="nav-item nav-link text-center" href="products.html">Products</a>
+            <a class="nav-item nav-link text-center" href="order.html">Ordering</a>
+          </div>
+        </div>
+      </div>
+    </nav>
 
-    <!-- Info icon -->
-    <button>Info</button>
-
-    <!-- Left (backstep) icon -->
-    <button onclick="prevStep()">  {{ </button>
-
-    <!-- Right (advancestep) icon -->
-    <button onclick="nextStep()"> }} </button>
-
-    <div id="show">
-
+  <section class="showcase mb-5">
+    <div class="container">
+      <h1>Journey Of Coffee</h1>
+      <div class="step mt-5">
+        <h2 class="display-5 border-bottom pb-2 mb-4">1. Planting</h2>
+        <p><img class="float-left img-fluid col-md-6" src="img/11steps/planting.jpg" /></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+      </div>
+      <div class="step mt-5">
+        <h2 class="display-5 border-bottom pb-2 mb-4">2. Harvesting</h2>
+        <p><img class="float-left img-fluid col-md-6" src="img/11steps/harvesting.jpg" /></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+      </div>
+      <div class="step mt-5">
+        <h2 class="display-5 border-bottom pb-2 mb-4">3. Processing</h2>
+        <p><img class="float-left img-fluid col-md-6" src="img/11steps/processing.jpg" /></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+      </div>
+      <div class="step mt-5">
+        <h2 class="display-5 border-bottom pb-2 mb-4">4. Drying</h2>
+        <p><img class="float-left img-fluid col-md-6" src="img/11steps/drying.jpg" /></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+      </div>
+      <div class="step mt-5">
+        <h2 class="display-5 border-bottom pb-2 mb-4">5. Milling</h2>
+        <p><img class="float-left img-fluid col-md-6" src="img/11steps/milling.jpeg" /></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+      </div>
+      <div class="step mt-5">
+        <h2 class="display-5 border-bottom pb-2 mb-4">6. Exporting</h2>
+        <p><img class="float-left img-fluid col-md-6" src="img/11steps/exporting.jpg" /></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+      </div>
+      <div class="step mt-5">
+        <h2 class="display-5 border-bottom pb-2 mb-4">7. Tasting</h2>
+        <p><img class="float-left img-fluid col-md-6" src="img/11steps/tasting.jpg" /></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+      </div>
+      <div class="step mt-5">
+        <h2 class="display-5 border-bottom pb-2 mb-4">8. Roasting</h2>
+        <p><img class="float-left img-fluid col-md-6" src="img/11steps/roasting.jpeg" /></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+      </div>
+      <div class="step mt-5">
+        <h2 class="display-5 border-bottom pb-2 mb-4">9. Grinding</h2>
+        <p><img class="float-left img-fluid col-md-6" src="img/11steps/grinding.jpg" /></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+      </div>
+      <div class="step mt-5">
+        <h2 class="display-5 border-bottom pb-2 mb-4">10. Packaging</h2>
+        <p><img class="float-left img-fluid col-md-6" src="img/11steps/packaging.png" /></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+      </div>
+      <div class="step mt-5">
+        <h2 class="display-5 border-bottom pb-2 mb-4">11. Brewing</h2>
+        <p><img class="float-left img-fluid col-md-6" src="img/11steps/brewing.jpg" /></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur excepturi suscipit unde a molestias ea, iste aliquid? Voluptates, corrupti. Quas reprehenderit aperiam minus veritatis velit accusantium ducimus modi aut nobis?</p>
+      </div>
     </div>
-  </div>
-  
+    
+  </section>
+
+  <!-- Footer -->
+  <footer class="container-fluid p-0">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-sm-6">Copyright © 2020 Bunova Global All Rights Reserved.</div>
+        <div class="col-sm-6"></div>
+      </div>
+
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Custom Script -->
-  <script src="journey.js"></script>
+  <script src="index.js"></script>
 </body>
 
 </html>

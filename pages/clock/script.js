@@ -20,6 +20,7 @@ function calculateAngles(){
   hoursangle = 90 + hours *30;
 }
 
+// Made with CSS animations, TODO: update to JS animations
 function applyAngles(){
   secondshand.style.transform = "rotate(" + secondsangle + "deg)";
   minuteshand.style.transform = "rotate(" + minutesangle + "deg)";
