@@ -34,7 +34,7 @@ http://www.templatemo.com/tm-511-journey
                 <div class="container">
                     <div class="row">
                         <nav class="navbar navbar-expand-lg narbar-light">
-                            <a class="navbar-brand mr-auto" href="#">
+                            <a class="navbar-brand mr-auto" href="index.html">
                                 <img src="img/img/logo.jpeg" alt="Site logo">
                                 SEVTEKİN
                             </a>
@@ -55,6 +55,9 @@ http://www.templatemo.com/tm-511-journey
                                 <li class="nav-item">
                                     <a class="nav-link" href="#tm-section-4">İletişim</a>
                                 </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-exclude" href="about.html">Hakkımızda</a>
+                                </li>
                             </ul>
                         </div>                            
                     </nav>
@@ -64,7 +67,9 @@ http://www.templatemo.com/tm-511-journey
 
         <div class="tm-page-wrap mx-auto">
             <section class="tm-banner">
-              <img class="img-fluid" src="img/img/ext2.jpeg" />          
+                <div class="tm-container-outer">
+                    <img class="img-fluid mx-auto d-block" src="img/img/ext1.jpeg">
+                </div>     <!-- .tm-container-outer -->                 
             </section>
 
             <section class="p-5 tm-container-outer tm-bg-gray">            
@@ -303,7 +308,8 @@ http://www.templatemo.com/tm-511-journey
             // Update nav links on scroll
             $('#tm-top-bar').singlePageNav({
                 currentClass:'active',
-                offset: 60
+                offset: 60,
+                filter: $(".nav-link").not(".nav-exclude")
             });
 
             // Close navbar after clicked
