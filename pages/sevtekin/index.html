@@ -55,6 +55,9 @@ http://www.templatemo.com/tm-511-journey
                                 <li class="nav-item">
                                     <a class="nav-link" href="#tm-section-4">İletişim</a>
                                 </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-exclude" href="about.html">Hakkımızda</a>
+                                </li>
                             </ul>
                         </div>                            
                     </nav>
@@ -303,7 +306,8 @@ http://www.templatemo.com/tm-511-journey
             // Update nav links on scroll
             $('#tm-top-bar').singlePageNav({
                 currentClass:'active',
-                offset: 60
+                offset: 60,
+                filter: $(".nav-link").not(".nav-exclude")
             });
 
             // Close navbar after clicked
